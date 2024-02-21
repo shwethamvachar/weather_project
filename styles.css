@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    /* background-color: red; */
+}
+#image{
+    background: url(http://localhost:3000/assets/bg.jpg);
+    /* background-color: red; */
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .btn{
+    position: relative;
+    top: 12px;
+    left: 70px;
+    width: 140px;
+} */
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    text-align: center;
+}
+#weather-info {
+    margin-top: 20px;
+}
+
+.card{
+    padding: 0px 9px 1px 9px;
+    border-radius: 17px!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
